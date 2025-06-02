@@ -65,6 +65,10 @@ $balconista = new Balconista('José', '30', 'Rua das Flores', '1234-5678', 'R$ 3
 
                         case '4':
                             break;
+                        
+                        default:
+                        echo "Opção inválida. \n";
+                            
 
                     }
                     break;
@@ -91,6 +95,7 @@ $balconista = new Balconista('José', '30', 'Rua das Flores', '1234-5678', 'R$ 3
                                 echo "Deseja deixar seu humano para tratamento? \n";
                                 echo " 1-Sim \n 2-Não \n";
 
+
                                 $tratamento = readline("Opção: ");
 
 
@@ -100,6 +105,9 @@ $balconista = new Balconista('José', '30', 'Rua das Flores', '1234-5678', 'R$ 3
                                         break;
                                     case '2':
                                         break;
+                                    default:
+                                    echo "Opção inválida. \n";
+                            
                                 }
                             break;
 
@@ -112,6 +120,10 @@ $balconista = new Balconista('José', '30', 'Rua das Flores', '1234-5678', 'R$ 3
                             case '4':
                             break ;
 
+                            default:
+                            echo "Opção inválida. \n";
+                            
+
                     }
                     break;
 
@@ -123,6 +135,10 @@ $balconista = new Balconista('José', '30', 'Rua das Flores', '1234-5678', 'R$ 3
             
             case '4':
                 exit;
+            
+            default:
+            echo "Opção inválida. \n";
+            
 
         }
 
