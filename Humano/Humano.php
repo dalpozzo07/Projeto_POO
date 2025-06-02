@@ -15,6 +15,8 @@ class Humano{
         
     }
 
-
+    public function descricao(){
+        echo "O nome do meu humano é $this->nome, sua idade é $this->idade \n";
+    }
 
 }

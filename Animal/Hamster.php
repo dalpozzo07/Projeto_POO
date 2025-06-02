@@ -1,7 +1,7 @@
 <?php
 require_once 'Animal.php';
 
-class Hamster{
+class Hamster extends Animal{
 
     public function Falar(){
         echo " Engraçado. Eles não falam, não atiram, 

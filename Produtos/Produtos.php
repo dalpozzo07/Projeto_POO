@@ -2,22 +2,14 @@
 
 class Produtos{
 
-    public $nome;
+    public $produto;
     public $preco;
     public $quantidade;
-    public $categoria;
     public $produtos = [];
 
-    function __construct($nome, $preco, $quantidade, $categoria){
-        $this->nome = $nome;
-        $this->preco = $preco;
-        $this->quantidade = $quantidade;
-        $this->categoria = $categoria;
-    
-    }
 
-    public function AdicionarProduto($nome, $preco, $quantidade, $categoria){
-        $this->produtos[] = new Produto($nome, $preco, $quantidade, $categoria);
+    public function adicionarProduto($produto, $preco, $quantidade){
+        $this->produtos[] = new Produto($produto, $preco, $quantidade);
     }
 
 
